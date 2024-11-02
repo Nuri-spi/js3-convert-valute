@@ -1,8 +1,4 @@
-
-
-
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,13 +6,14 @@
     outline: none;
 }
 
-.container{
+.container {
     width: 400px;
     margin: auto;
 }
 
 
-.from,.to{
+.from,
+.to {
     display: flex;
     gap: 20px;
     padding: 12px 22px;
@@ -25,15 +22,19 @@
     margin-bottom: 10px;
 }
 
-.vertical-line{
+.vertical-line {
     height: auto;
     width: 2px;
     background-color: black;
 
 }
-select{
+
+select {
     flex: 1;
+    background-color: transparent;
 }
-input{
+
+input {
+    background-color: transparent;
     width: 100px;
 }

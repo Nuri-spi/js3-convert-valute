@@ -12,8 +12,6 @@ selects[0].addEventListener('change', calculate)
 const currency = {
     eur: 93.45,
     usd: 85.80,
-    yu: 12.01
-    rub
 }
 
 function calculate() {
